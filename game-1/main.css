@@ -3,12 +3,19 @@ body {
 }
 
 .container {
-	width: 95%;
-	height: 25%
+	width: 86%;
+	height: 25%;
+	font-size: 30px;
+	background: darkgrey;
+	border: 2px solid black;
+}
+
+.player1 {
+	padding-top: 10px;
 }
 
 #p1 {
-	font-size: 20px;
+	color: red;
 	width: 2%;
 	height: 2%;
 	position: relative;
@@ -16,7 +23,7 @@ body {
 }
 
 #p2 {
-	font-size: 20px;
+	color: orange;
 	width: 2%;
 	height: 2%;
 	position: relative;
