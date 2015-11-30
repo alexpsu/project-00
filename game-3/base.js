@@ -58,6 +58,10 @@ $(document).ready(function(){
 		count1 = 0;
 		count2 = 0;
 		$('#p1').css("left", 0)
+		$('#p1').css("top", 0)
 		$('#p2').css("left", 0)
+		$('#p2').css("top", 0)
+		$('#p1').css("transform", "rotate(0deg)")
+		$('#p2').css("transform", "rotate(0deg)")
 	})
 });
