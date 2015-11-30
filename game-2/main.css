@@ -1,0 +1,30 @@
+body {
+	background-image: url("http://vignette1.wikia.nocookie.net/powerlisting/images/e/e4/DEEP_SPACE.jpg/revision/latest?cb=20131006085915");
+}
+
+.container {
+	width: 86%;
+	height: 25%;
+	font-size: 30px;
+}
+
+.player1 {
+	padding-top: 10px;
+}
+
+#p1 {
+	color: red;
+	width: 2%;
+	height: 2%;
+	position: relative;
+    right: -750px;
+    transform: rotate(180deg);
+}
+
+#p2 {
+	color: orange;
+	width: 2%;
+	height: 2%;
+	position: relative;
+	left: 0px;
+}
